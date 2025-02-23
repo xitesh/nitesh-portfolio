@@ -1,0 +1,115 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style>
+            /* body style */
+            body{
+                background-color: lightgray;
+            }
+
+            /* header style */
+            header{
+                font-family: 'Times New Roman', Times, serif, Times, serif;
+                font-size: medium;
+                background-color: black;
+                color: lightgray;
+                text-align: center;
+                padding: 1px;
+                border-radius: 10px;
+            }
+
+            /* main section style */
+            .div-section {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            /* profile picture */
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 4px solid black;
+                display: block;
+                margin: 20px auto;
+            }
+            
+            #main-div-1 {
+                color: white;
+                text-align: center;
+                flex-grow: 1;
+            }
+
+            #main-div-2 {
+                font-family: monospace;
+                font-size: large;
+                color: black;
+                text-align: justify;
+                margin: 0 auto;
+                max-width: 80%;
+                padding: 15px;
+                flex-grow: 1;
+            }
+
+            footer{
+                font-family: 'Times New Roman', Times, serif, Times, serif;
+                font-size: medium;
+                background-color: black;
+                color: lightgray;
+                text-align: center;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- header section -->
+        <header>
+            <div>
+                <h1>Nitesh Nagar</h1>
+            </div>
+        </header>
+
+
+        <!-- main section -->
+        <main>
+            <section class="div-section">
+
+                <div id="main-div-1">
+                    <img src="images/niteshProfile.webp" alt="Nitesh Profile Photo" class="profile-pic">
+                </div>
+
+                <div id="main-div-2">
+                    <h2>Web Developer</h2>
+                    <p>
+                        Hey, I'm <strong>Nitesh Nagar!</strong>
+                    </p>
+                    <p>
+                        I'm a passionate Web Developer with a strong foundation in building responsive and well-structured web pages. 
+                    </p>
+                    <p>
+                        I believe in writing clean, semantic, and efficient code that enhances user experience.
+                    </p>
+                    <p>
+                        With hands-on experience in front-end development, I specialize in creating visually appealing and functional designs using HTML, CSS, and a touch of JavaScript.
+                    </p>
+                    <p>
+                        Let’s build something amazing together! 🚀
+                    </p>
+                </div>            
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2025 Xitesh | All Right Reserved</p>
+        </footer>
+    </body>
+
+    </html>
