@@ -1,122 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nitesh Nagar | Portfolio</title>
-  <style>
-    /* Reset default margin/padding */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style>
+            /* body style */
+            body{
+                background-color: lightgray;
+            }
 
-    /* body style */
-    body {
-      background-color: lightgray;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+            /* header style */
+            header{
+                font-family: 'Times New Roman', Times, serif, Times, serif;
+                font-size: medium;
+                background-color: black;
+                color: lightgray;
+                text-align: center;
+                padding: 1px;
+                border-radius: 10px;
+            }
 
-    /* header style */
-    header {
-      background-color: black;
-      color: lightgray;
-      text-align: center;
-      padding: 10px;
-      border-radius: 10px;
-    }
+            /* main section style */
+            .div-section {
+                display: flex;
+                flex-wrap: wrap;
+            }
 
-    main {
-      flex: 1;
-      padding: 20px;
-    }
+            /* profile picture */
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 4px solid black;
+                display: block;
+                margin: 20px auto;
+            }
+            
+            #main-div-1 {
+                color: white;
+                text-align: center;
+                flex-grow: 1;
+            }
 
-    /* main section style */
-    .div-section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-    }
+            #main-div-2 {
+                font-family: monospace;
+                font-size: large;
+                color: black;
+                text-align: justify;
+                margin: 0 auto;
+                max-width: 80%;
+                padding: 15px;
+                flex-grow: 1;
+            }
 
-    /* profile picture */
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid black;
-      display: block;
-    }
+            footer{
+                font-family: 'Times New Roman', Times, serif, Times, serif;
+                font-size: medium;
+                background-color: black;
+                color: lightgray;
+                text-align: center;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
 
-    #main-div-1 {
-      color: black;
-      text-align: center;
-    }
+    <body>
 
-    #main-div-2 {
-      font-family: monospace;
-      font-size: large;
-      color: black;
-      max-width: 600px;
-      text-align: justify;
-    }
+        <!-- header section -->
+        <header>
+            <div>
+                <h1>Nitesh Nagar</h1>
+            </div>
+        </header>
 
-    footer {
-      background-color: black;
-      color: lightgray;
-      text-align: center;
-      padding: 10px;
-      border-radius: 10px;
-    }
-  </style>
-</head>
 
-<body>
+        <!-- main section -->
+        <main>
+            <section class="div-section">
 
-  <!-- header section -->
-  <header>
-    <h1>Nitesh Nagar</h1>
-  </header>
+                <div id="main-div-1">
+                    <img src="images/niteshProfile.webp" alt="Nitesh Profile Photo" class="profile-pic">
+                </div>
 
-  <!-- main section -->
-  <main>
-    <section class="div-section">
+                <div id="main-div-2">
+                    <h2>Web Developer</h2>
+                    <p>
+                        Hey, I'm <strong>Nitesh Nagar!</strong>
+                    </p>
+                    <p>
+                        I'm a passionate Web Developer with a strong foundation in building responsive and well-structured web pages. 
+                    </p>
+                    <p>
+                        I believe in writing clean, semantic, and efficient code that enhances user experience.
+                    </p>
+                    <p>
+                        With hands-on experience in front-end development, I specialize in creating visually appealing and functional designs using HTML, CSS, and a touch of JavaScript.
+                    </p>
+                    <p>
+                        Let’s build something amazing together! 🚀
+                    </p>
+                </div>            
 
-      <div id="main-div-1">
-        <img src="images/niteshProfile.webp" alt="Nitesh Profile Photo" class="profile-pic">
-      </div>
+            </section>
+        </main>
 
-      <div id="main-div-2">
-        <h2>Web Developer</h2>
-        <p>Hey, I'm <strong>Nitesh Nagar!</strong></p>
-        <p>
-          I'm a passionate Web Developer with a strong foundation in building responsive and well-structured web pages.
-        </p>
-        <p>
-          I believe in writing clean, semantic, and efficient code that enhances user experience.
-        </p>
-        <p>
-          With hands-on experience in front-end development, I specialize in creating visually appealing and functional
-          designs using HTML, CSS, and a touch of JavaScript.
-        </p>
-        <p>Let’s build something amazing together! 🚀</p>
-      </div>
+        <footer>
+            <p>Copyright &copy; 2025 Xitesh | All Right Reserved</p>
+        </footer>
+    </body>
 
-    </section>
-  </main>
-
-  <!-- footer section -->
-  <footer>
-    <p>&copy; 2025 Xitesh | All Rights Reserved</p>
-  </footer>
-
-</body>
-
-</html>
+    </html>
